@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="./css/signup.css"/>
+</head>
+
+<body>
+	<div class="header">
+    	<div class="logo"><img src="./images/logo/lil.png" width="180" height="90" alt="logo" /></div>
+        <div class="hcontent">LIL'S STUDIO</div>
+    </div>
+    <div class="container"> 
+   	  <div class="left">
+        	<div class="top">
+            	<h3>Đăng nhập tài khoản của bạn</h3>
+            </div>
+            <div class="bot">
+            	<form id="form1" name="form1" method="post" action="">
+            	  <p>
+            	    <label for="email">Email:</label>
+            	    <input type="text" name="email" id="email" />
+          	    </p>
+            	  <p>&nbsp;</p>
+            	  <p>
+            	    <label for="pass">Password</label>
+            	    <input type="password" name="pass" id="pass" />
+            	  </p>
+       	      </form>
+        </div>
+        				<div class="but">
+            	<p onclick="login()">Đăng nhập</p>
+            </div>
+        </div>
+        <div class="right">
+       	  <div class="rtop">
+            	<h3>Không có tài khoản?	</h3>
+            </div>
+            <div class="rbot">
+            	<h4><a href="signup.html"style="text-decoration:none">Đăng ký</a></h4>
+                <input type="hidden" id ="url" value="signup.html">
+            </div>
+        </div>
+    </div>
+      <script>
+		            function signup(){
+                var x= document.getElementById("url").value;
+				web= window.open(x,"_self","Width=600 Height=400");
+				}
+					function login(){
+                		if(confirm('Xác nhận đăng nhập')){
+			document.write('Đăng nhập thành công!');
+		}else{
+			document.write('Mời bạn nhập lại thông tin');
+		}
+		}
+				</script>
+                	
+</body>
+</html>

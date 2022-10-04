@@ -1,0 +1,104 @@
+*{
+	margin:0px;
+	padding:0px;
+	}
+.logo {
+	margin-left: 50px;
+	width: 180px;
+	float: left;
+	background-color: #000;
+	border-radius: 50px 0px 0px 0px; 
+}
+
+.header {
+	height: 90px;
+	width: 1131px;
+	background-color: #FFF;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+#email {
+	display: block;
+}
+
+.hcontent {
+	float: left;
+	width: 180px;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 24px;
+	padding-top: 30px;
+	background-color: #000;
+	border-radius: 0px 0px 50px;
+	padding-left: 20px;
+	height: 60px;
+	border-left-width: thin;
+	border-left-color: #666;
+}
+#pass {
+	display: block;
+}
+
+.container {
+	height: 400px;
+	width: 1131px;
+}
+.top {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "Courier New", Courier, monospace;
+	height: 100px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+.bot {
+	margin-left: 100px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.left {
+	float: left;
+	width: 565px;
+	height: 200px;
+}
+.right {
+	float: right;
+	height: 400px;
+	width: 565px;
+	background-color: #000;
+}
+.but {
+	width: 200px;
+	background-color: #000;
+	text-align: center;
+	margin-left: 80px;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+}
+.rtop {
+	width: 500px;
+	color: #FFF;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding: 50px;
+	height: 100px;
+}
+.rbot {
+	color: #FFF;
+	font-weight: bold;
+	border: thin solid #FFF;
+	text-align: center;
+	width: 200px;
+	margin-left: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}

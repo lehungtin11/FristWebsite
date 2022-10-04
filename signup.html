@@ -1,0 +1,47 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>login</title>
+  <link rel="stylesheet" type="text/css" href="./css/styledk.css" />
+</head>
+
+<body>
+  <div class="dangky">
+    <div class="dangky2">
+      <div class="cont">
+        <h1> ĐĂNG KÍ TÀI KHOẢN CỦA BẠN</h1>
+      </div>
+      <div class="dangnhap">
+        <span> Đã có tài khoản?</span> <a href="#" onclick="login()">Đăng nhập</a>
+        <input type="hidden" id="login" value="Login.html">
+      </div>
+      <div class="inut">
+        <input name="hoten" id="user" type="text" placeholder="Tài khoản" /> <br /><br />
+        <input name="sdt" id="email" type="text" placeholder="Email" /><br /><br />
+        <input name="note" id="pass" type="password" placeholder="Mật khẩu" /> <br /><br />
+        <input name="note" id="confirmpass" type="password" placeholder="Xác nhận mật khẩu" />
+      </div>
+      <div class="btn">
+        <button type="button" id="btn" name="btn" onclick="tuvan()">Đăng ký</button>
+      </div>
+    </div>
+    <script language="javascript">
+      var button = document.getElementById("btn");
+      button.onclick = function () {
+        if (confirm('Xác nhận đăng ký')) {
+          alert('Đăng ký thành công!');
+        } else {
+          alert('Nhập lại thông tin');
+        }
+      }
+      function login() {
+        var x = document.getElementById("login").value;
+        web = window.open(x, "_blank");
+      }
+    </script>
+</body>
+
+</html>

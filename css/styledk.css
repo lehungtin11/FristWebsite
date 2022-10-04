@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding:0px;
+	}
+.cont {
+	color: #FFFFFF;
+	text-align: center;
+	width: 550px;
+	height: 80px; 
+}
+.dangnhap {
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+}
+
+.dangky2 {
+	height: 400px;
+	width: 600px;
+	float: left;
+	padding-top: 20px;
+	background-color: #000;
+	border: thick solid #FC0;
+}
+
+.inut {
+	text-align: center;
+	margin-top: 30px;
+}
+input {
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+	background-color: #FC0;
+	border-radius: 10px;
+	height: 30px;
+	width: 180px;
+	margin-bottom: -10px;
+	color: #000;
+}
+.btn {
+	text-align: center;
+}
+#btn {
+	height: 40px;
+	width: 180px;
+	margin-top: 30px;
+	color: #000;
+	font-weight: bold;
+	background-color: #FFCC00;
+	border-radius: 10px;
+}
